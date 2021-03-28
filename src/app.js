@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { Route } from "react-router-dom";
 import * as ROUTES from "./constants/Routes";
 import { Home, Browse, SignIn, SignUp } from "./pages";
-// import SignIn from "./pages/SignIn";
 
 export function App() {
   return (
