@@ -1,6 +1,3 @@
-// compound components to put the component together
-// add the feature component to index.js
-
 import React from "react";
 import { Container, Title, SubTitle } from "./styles/Feature";
 
