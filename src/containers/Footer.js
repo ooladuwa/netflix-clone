@@ -42,4 +42,4 @@ function FooterContainer() {
   );
 }
 
-export default FooterContainer
+export default FooterContainer;
