@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { Route } from "react-router-dom";
 import * as ROUTES from "./constants/Routes";
-import Home from "./pages/Home";
-import SignIn from "./pages/SignIn";
+import { Home, SignIn, SignUp } from "./pages";
+// import SignIn from "./pages/SignIn";
 
 export function App() {
   return (
@@ -13,7 +13,7 @@ export function App() {
           <SignIn />
         </Route>
         <Route path={ROUTES.SIGN_UP}>
-          <p>I will be the sign up page</p>
+          <SignUp />
         </Route>
         <Route path={ROUTES.BROWSE}>
           <p>I will be the browse page</p>
